@@ -120,6 +120,8 @@ p {
 }
 
 .card-column {
+    display: flex;
+    flex-wrap: wrap;
     flex-basis: 33%;
     max-width: 33%;
     flex-grow: 0;
@@ -142,5 +144,8 @@ footer {
 }
 
 @media screen and (max-width:768px) {
-
+    .card-column {
+        display: flex;
+        flex-wrap: wrap;
+    }
 }
